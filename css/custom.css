@@ -1,20 +1,128 @@
 .banner {
     background-color: #808080;
     width: 100%;
-    height: auto;
+    height: 400px;
+    background: url("../img/banner.jpg") no-repeat center;
+    background-size: cover;
+    color: #ffff;
+    margin-bottom: 60px;
 }
-
+.img_banner{
+	width: 100%;
+	height: 300px;
+}
 .cta > a {
     display: table;
     margin: 0 auto;
 }
-
+.img_logo{
+	width: 200px;
+	height: 90px;
+}
+a{
+	color: #6b1f60;
+	font-weight: bolder;
+}
+a:hover{
+	color: #6b1f60;
+}
+.btn_participar{
+	background-color: #f8733a;
+	border-radius: 50px;
+	border-color: #f8733a; 
+	width: 200px;
+	height: 40px;
+	color: #decdc5;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.cta > p{
+	line-height: 150px;
+	margin-bottom: 0 auto;
+	padding: 0 auto;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.cta > button{
+	line-height: 0px;
+	width: 250px;
+	display: table;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #6b1f60;
+}
+.cta > button:hover{
+	color:#6b1f60;
+}
+.cta> h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+h2:after{
+	content: "";
+	display: block;
+	width: 90px;
+	height: 4px;
+	border-radius: 2px;
+	margin: 8px auto;
+	margin-bottom: 30px;
+	background-color:#f8733a;
+}
+h3{
+	color: #f8733a;
+	font-variant: normal;
+}
+.img_sobre{
+	border-radius: 30px;
+	border:#f8733a 2px solid;
+}
 .sympla {
     display: table;
     margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
 }
-
 .items {
     padding-left: 15px;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.fa_quando{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding: 7px;
+	background-color: #6b1f60;
+	color: #fff;
+}
+.fa_onde{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding: 9px;
+	background-color: #f8733a;
+	color: #fff;
+}
+.divisor{
+	width: 100%;
+	background-color: #decdc5;
+	height: 2px;
+	margin-top: 80px;
+}
+.img_midias{
+	width: 30px;
+	height: 30px;
+	align-items: center;
+	padding: 6px;
+	border-radius: 50%;
+	background-color: #decdc5;
+	border: 1px #f8733a solid;
+	color: #f8733a;
 }
