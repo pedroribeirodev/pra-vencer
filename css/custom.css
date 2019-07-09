@@ -1,3 +1,23 @@
+.cta-sympla {
+    background-color: #F77339;
+    color: white;
+    font-weight: bold;
+    text-decoration: none !important;
+    padding: 10px 35px;
+    border-radius: 25px;
+}
+.cta-sympla:hover{
+    color: #fff;
+}
+
+.menu-top {
+    color: #6B1F60;
+    font-weight: bold;
+}
+.menu-top:hover{
+    text-decoration: none;
+    color: #6B1F60;
+}
 .banner {
     background-color: #808080;
     width: 100%;
@@ -11,32 +31,33 @@
 	width: 100%;
 	height: 300px;
 }
-.cta > a {
+.button-banner {
     display: table;
     margin: 0 auto;
+    background-color: #fff;
+    padding: 15px 60px;
+    font-size: 25px;
+    border-radius: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6B1F60;
+    
 }
+.button-banner:hover{
+    text-decoration: none;
+    color: #6B1F60;
+}
+.button-banner > img {
+    width: 22px;
+    height: auto;
+    
+}
+
 .img_logo{
 	width: 200px;
 	height: 90px;
 }
-a{
-	color: #6b1f60;
-	font-weight: bolder;
-}
-a:hover{
-	color: #6b1f60;
-}
-.btn_participar{
-	background-color: #f8733a;
-	border-radius: 50px;
-	border-color: #f8733a; 
-	width: 200px;
-	height: 40px;
-	color: #decdc5;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-}
+
 .cta > p{
 	line-height: 150px;
 	margin-bottom: 0 auto;
@@ -81,15 +102,33 @@ h3{
 }
 .img_sobre{
 	border-radius: 30px;
-	border:#f8733a 2px solid;
+}
+
+.square {
+    width: 445px;
+    height: 327px;
+    position: absolute;
+    border: 2px solid #F77339;
+    border-radius: 30px;
+    right: 3px;
+    top: -15px;
 }
 .sympla {
     display: table;
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
-    padding: 5px;
+    padding: 10px 25px;
+    background-color: #6B1F60;
+    color: #fff;
+    border-radius: 35px;
 }
+
+.sympla:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 .items {
     padding-left: 15px;
     justify-content: space-around;
